@@ -1,8 +1,12 @@
-<DOCTYPE html>
-    <html>
-    <body style= "text-align: center">
-        <h1 >STUDENT FORM</h1>
-        <form action="https://docs.google.com/document/d/13hKk5H-dK8OPPui6NdRULok40FsAzVWQuKuI_8Wtfek/edit" target="_blank" method="Post">
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>page title</title>
+         <h1 style="text-align: center">STUDENT FORM</h1>
+    </head>
+
+               <form action="https://docs.google.com/document/d/13hKk5H-dK8OPPui6NdRULok40FsAzVWQuKuI_8Wtfek/edit" target="_blank" method="Post">
             <label for="fname">FIRST NAME:  </label>
             <input type="text" id="fname" name="fname"><br><br>
             <label for="lname">LAST NAME:   </label>
@@ -11,13 +15,13 @@
             <input type="text" id="number" name="number"><br><br>
             <label for="mail-id">E-mail-id:  </label>
             <input type="text" id="mail-id" name="mail-id"><br><br>
-            <label for="courses">COURSES: </label><br>
+            <h3>COURSES:</h3><BR>
             <input type="radio" id="Bachelors" name="course" value="Bachelors">
             <label for="Bachelors">Bachelors</label><br>
-            <input type="radio" id="Masters" name ="course"value="Masters">
-            <label for="masters" >Masters</label><br>
+            <input type="radio" id="Masters" name ="course" value="Masters">
+            <label for="Masters" >Masters</label><br>
             <textarea name="Description" rows="10" cols="10">this course is entirely about...</textarea><br>
-            <label for="subject">AREAS OF INTEREST</label><br>
+            <h3>AREAS OF INTEREST:</h3><br>
              <input type="checkbox" id="subject1" name="subject1" value="Machines">
             <label for="subject1">Machines</label><br>
              <input type="checkbox" id="subject2" name="subject2" value="Control systems">
@@ -27,5 +31,5 @@
 
             <input type="submit" value="REGISTER">
         </form>
-    </body>
+
     </html>
