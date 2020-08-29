@@ -62,13 +62,16 @@ li,a{
 a{
 	transition: all 0.3s ease 0s;
 }
-h1{
-	padding-left: 25px;
-	color: teal;
+h1.hidden{
+	visibility: hidden;
+/*	padding-left: 25px;
+	color: teal; */
+
 }
 p{
 	padding-left: 25px;
-	color: yellow;
+	color:yellow;
+	
 }
 button{
 	border-radius:50px;
@@ -93,7 +96,7 @@ div.image{
 	margin-left: auto;
 	margin-right: auto;
 }
-div.tbl1{
+table.tbl1{
 	text-align: right;
 	padding-left: 100px;
 }
