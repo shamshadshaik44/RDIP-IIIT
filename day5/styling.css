@@ -80,15 +80,19 @@ button:hover{
 	color:red;
 }
 
+ul.list{
+list-style-image: url("mark.png");
+}
 
 body{
 	margin:0;
 	border:0;
-	background-image:url("https://www.digitalplatforms.co.za/wp-content/uploads/2015/11/Website-Design-Background.png");
+	/*background-image:url("https://www.digitalplatforms.co.za/wp-content/uploads/2015/11/Website-Design-Background.png");
 	background-repeat:no-repeat;
-	background-size: 100% 250%;
+	background-size: 100% 250%; */
 	font-family: serif;
 	font-style: italic;
+	background-color: purple;
     
 	
 }
