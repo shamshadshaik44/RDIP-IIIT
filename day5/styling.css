@@ -1,6 +1,6 @@
 .head{
 	display:flex;
-	background: teal;
+	/*background: teal; */
 	color:white;
 	padding: 15px 15px;
 	justify-content:space-between;
@@ -16,7 +16,7 @@
 .text
 {
 	text-align: center;
-	font-size: 100%
+	font-size: 100%;
 }
 .header-r8{
 	float:right ;
@@ -34,7 +34,7 @@ li,a{
 .navi {
 	justify-content:space-between;
 	align-items: center;
-	 background: black;
+/*	 background: black; */
 	 margin:0;
 	 padding: 5px 5px;
 }
@@ -55,5 +55,9 @@ li,a{
 
 body{
 	margin:0;
+	background-image:url("https://www.digitalplatforms.co.za/wp-content/uploads/2015/11/Website-Design-Background.png");
+	background-repeat:no-repeat;
+	background-size: 100%;
+
 	
 }
