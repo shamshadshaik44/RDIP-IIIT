@@ -1,5 +1,5 @@
 *{
-	max-width: 100%
+	max-width: 100%;
 
 }
 
@@ -53,8 +53,11 @@ li,a{
 .nav-bar li a{
 	transition: all 0.3s ease 0s;
 }
-.nav-bar li a:hover{
+.nav-bar li  a:hover{
 	color:red;
+}
+a{
+	transition: all 0.3s ease 0s;
 }
 h1{
 	padding-left: 25px;
@@ -64,10 +67,23 @@ p{
 	padding-left: 25px;
 	color: yellow;
 }
+button{
+	border-radius:50px;
+	background-color: skyblue;
+	color: solid black;
+	font-family: serif;
+	padding:9px 25px;
+	transition: all 0.3s ease 0s;
+
+}
+button:hover{
+	color:red;
+}
 
 
 body{
 	margin:0;
+	border:0;
 	background-image:url("https://www.digitalplatforms.co.za/wp-content/uploads/2015/11/Website-Design-Background.png");
 	background-repeat:no-repeat;
 	background-size: 100% 250%;
