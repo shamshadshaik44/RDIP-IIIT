@@ -22,18 +22,17 @@
 			background-color: black; 
 			color: white;
 		}
-		table tr:nth-child(odd)
+		table tr:nth-child(even)
 		{
 			background-color: #ccc;
 		}
-		table tr:nth-child(even)
+		table tr:nth-child(odd)
 		{
 			background-color: #fff;
 		}
 	</style>
 	<body>
-		<div class="tbl">
-	<table>
+	<table class="tbl" id="tbl1">
 		<tr>
 			<th>S.NO</th>
 			<th>SUBJECTS</th>
@@ -41,26 +40,25 @@
 		</tr>
 		<tr>
 			<td>1.</td>
-			<td>Electrical machines</td>
-			<td>8.0</td>
+			<td class="course">Electrical machines</td>
+			<td class="gpa">8.0</td>
 		</tr>
 		<tr>
 			<td>2.</td>
-			<td>EMF</td>
-			<td>7.0</td>
+			<td class="course">EMF</td>
+			<td class="gpa">7.0</td>
 		</tr>
 		<tr>
 			<td>3.</td>
-			<td>Control systems</td>
-			<td>7.5</td>
+			<td class="course">Control systems</td>
+			<td class="gpa">7.5</td>
 		</tr>
 		<tr>
 			<td>4.</td>
-			<td>Power systems</td>
-			<td>8.0</td>
+			<td class="course">Power systems</td>
+			<td class="gpa">8.0</td>
 		</tr>
 	</table>
-</div>
 </body>
 </head>
 </html>
