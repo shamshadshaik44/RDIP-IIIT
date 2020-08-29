@@ -1,0 +1,59 @@
+.head{
+	display:flex;
+	background: teal;
+	color:white;
+	padding: 15px 15px;
+	justify-content:space-between;
+	align-items: center;
+}
+.logo{
+	width: 40px;
+	height: 40px;
+	float: left;
+	cursor:pointer;
+	padding-left: 10px;
+}
+.text
+{
+	text-align: center;
+	font-size: 100%
+}
+.header-r8{
+	float:right ;
+	text-decoration: none;
+	font-size: 1em;
+	color:white;
+}
+li,a{
+	font-weight: 500;
+	font-size:1em;
+	color:white;
+    text-decoration: none;
+
+}
+.navi {
+	justify-content:space-between;
+	align-items: center;
+	 background: black;
+	 margin:0;
+	 padding: 5px 5px;
+}
+.nav-bar{
+	list-style: none;
+}
+.nav-bar li{
+	display: inline-block;
+	padding: 0px 20px;
+}
+.nav-bar li a{
+	transition: all 0.3s ease 0s;
+}
+.nav-bar li a:hover{
+	color:red;
+}
+
+
+body{
+	margin:0;
+	
+}
