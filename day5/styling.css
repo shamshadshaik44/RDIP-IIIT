@@ -1,5 +1,6 @@
 *{
 	max-width: 100%
+
 }
 
 .head{
@@ -70,6 +71,8 @@ body{
 	background-image:url("https://www.digitalplatforms.co.za/wp-content/uploads/2015/11/Website-Design-Background.png");
 	background-repeat:no-repeat;
 	background-size: 100% 250%;
+	font-family: serif;
+	font-style: italic;
     
 	
 }
