@@ -2,6 +2,9 @@
 	max-width: 100%;
 
 }
+header{
+	padding: 55px 55px;
+}
 
 .head{
 	display:flex;
