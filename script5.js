@@ -8,7 +8,7 @@ function myFunction() {
 function myFunction1() {
   var x = document.getElementById("myInput");
  document.getElementById("res2").innerHTML = x.value.toUpperCase();
-}*/
+}
 var num=prompt("enter");
 if(Number(num)>10 &&Number(num)<100)
 {
@@ -44,4 +44,12 @@ for(i=1;i<=n;i++)
 	num1=num2;
 	num2=next;
     
-}
+}*/
+var text =
+"HTML is the standard markup language for Web pages With HTML you can create your own Website."
+var arr =text.split(" ");
+document.writeln(arr[4]);
+document.writeln(arr[6]);
+document.writeln(arr[9]);
+
+
