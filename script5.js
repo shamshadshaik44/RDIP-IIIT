@@ -21,7 +21,22 @@ else
 var num1=0;
 var num2=1;
 var next;
+var message=document.getElementById("p2");
+message.innerHTML="";
 var n=prompt("enter");
+try
+{   
+	if(n=="");throw "empty";
+	if(isNaN(n)) throw "not a number";
+	n=Number(n);
+	if(n<1) throw "negative numbers not accepted";
+	
+	
+}
+catch(err){
+	message.innerHTML="Input is " +err;
+}
+
 for(i=1;i<=n;i++)
 { 
 	document.writeln(num1);
