@@ -1,14 +1,16 @@
-$(document).ready(function()
+/*$(document).ready(function()
 {
-	$("#hide").click(function()
-	{
-		$("p").hide();
-	}
-	);
 	$("#show").click(function()
 	{
-		$("p").show();
-	}
-	);
-}
-);
+		$("p").toggle();
+	});
+}); */
+$(document).ready(function()
+{
+	$("button").click(function()
+	{
+	   $("#1").fadeToggle();
+		$("#2").fadeToggle("slow");
+	});
+});
+
